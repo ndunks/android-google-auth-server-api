@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Budget Test</string>
+    <string name="sandbox_tokenization_key" translatable="false">rrxm535cxkdxvm3h</string>
 </resources>

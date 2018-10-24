@@ -4,7 +4,7 @@ android {
     compileSdkVersion 26
     defaultConfig {
         applicationId "app_test.androidnav.net.budgettest"
-        minSdkVersion 15
+        minSdkVersion 16
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
@@ -16,6 +16,8 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    productFlavors {
+    }
 }
 
 dependencies {
@@ -24,4 +26,6 @@ dependencies {
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
     implementation 'com.google.android.gms:play-services-auth:12.0.1'
     implementation 'com.android.volley:volley:1.1.1'
+    // implementation 'com.braintreepayments.api:braintree:2.17.0'
+    implementation 'com.braintreepayments.api:drop-in:3.6.1'
 }
